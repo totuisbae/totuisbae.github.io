@@ -1,0 +1,143 @@
+/*COLOUR SCHEME----------------------------
+
+   WHITE : e2e8e4
+    CRED : ba1d40
+    DRED : 8b2442
+    LPURPLE : 2f3047
+    BLUE : 002d40
+#f7eda4 - YELLOW
+#00000c
+e74c3c*/
+
+
+*{
+    margin:0;
+    padding:0;
+    
+    
+}
+
+body{
+    font-size: 160px;
+    background-color: #262626;
+    color:#ebebeb;
+    font-family: 'Montserrat', sans-serif;
+    max-height: 100vh;
+    overflow: hidden;
+    
+}
+
+h1{
+    font-size: 37%;
+    font-weight: 100;
+}
+
+h2{
+    font-size: 18%;
+    font-weight: 300;
+}
+
+h4{
+    font-size:25%;
+    font-weight: 300;
+}
+h3{
+    font-size:15%;
+}
+p{
+    font-size: 12%;
+}
+hr{
+     border: none;
+    height: 2px;
+    margin-left:25%;
+    width:50%;
+    /* Set the hr color */
+    color: #4bcde5; /* old IE */
+    background-color: ##4bcde5; /* Modern Browsers */
+}
+/*-------------------------------------------------------------LOADER----*/
+#count{
+    
+    text-align: center;
+    margin-top:50vh;
+    transform: translateY(-10vh);
+}
+
+#count h1{
+    padding:20px;
+    background: #505050;
+}
+
+.dis{
+    font-size: 1000px !important;
+}
+#user{
+    opacity: 0;
+    font-size:20px;
+    background: url("img/totu.jpg") no-repeat;
+    background-size: cover;
+    color:white;
+    padding:30px;
+    height:100vh;
+    text-align: left;
+    border-radius: 10px;
+    
+}
+#user p:nth-child(1){
+    padding:10px;
+    background: rgba(67, 67, 67, 0.67);
+    border-radius: 30px;
+    font-size: 100%;
+    text-align: center;
+    
+}
+#user p:nth-child(6){
+    padding:10px;
+    background: rgba(67, 67, 67, 0.67);
+    border-radius: 30px;
+    font-size: 100%;
+    bottom:0;
+    margin-top:100px;
+    text-align: center;
+    
+}
+#user p{
+    padding:20px 10px;
+    background: rgba(67, 67, 67, 0.67);
+    border-radius: 30px;
+    font-size: 150%;
+    
+}
+#user2{
+    opacity: 0;
+    width:100%;
+}
+    
+@media only screen and (max-width:1200px){
+    body{
+        font-size:140px;
+    }
+
+}
+
+@media only screen and (max-width:992px){
+    body{
+        font-size:120px;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+    body{
+        font-size:110px;
+    }
+
+}
+@media only screen and (max-width:576px){
+    body{
+        font-size:90px;
+  
+}
+
+
